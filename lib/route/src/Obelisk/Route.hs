@@ -141,7 +141,6 @@ import Control.Lens
   )
 import Control.Monad.Except
 import qualified Control.Monad.State.Strict as State
-import Control.Monad.Trans (lift)
 import Control.Monad.Writer (execWriter, tell)
 import Data.Aeson (FromJSON, ToJSON)
 import qualified Data.Aeson as Aeson
@@ -161,7 +160,6 @@ import Data.List.NonEmpty (NonEmpty (..))
 import Data.Map (Map)
 import qualified Data.Map as Map
 import Data.Maybe
-import Data.Monoid ((<>))
 import Data.Set (Set)
 import qualified Data.Set as Set
 import Data.Some (Some(Some))

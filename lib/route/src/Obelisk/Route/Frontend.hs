@@ -60,7 +60,6 @@ import Prelude hiding ((.), id)
 import Control.Category (Category (..), (.))
 import Control.Category.Cartesian ((&&&))
 import Control.Lens hiding (Bifunctor, bimap, universe, element)
-import Control.Monad ((<=<))
 import Control.Monad.Fix
 import Control.Monad.Morph
 import Control.Monad.Primitive
